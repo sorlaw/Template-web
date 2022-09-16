@@ -1,0 +1,83 @@
+/* navbar */
+.hero-image {
+  margin-top: -350px;
+  border-bottom: 3px solid rgb(37, 209, 152);
+}
+.nav-link {
+  font-family: "Viga", sans-serif;
+  transition: 0.3s;
+}
+#nav-hover:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+/* akhir navbar */
+/* hero-image */
+.hero-image {
+  background-image: url(../pemandangan.jpg);
+  margin-top: -100px;
+}
+/* akhir hero-image */
+/* poto profil */
+.profil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.utama {
+  border: 3px solid rgb(69, 182, 25);
+}
+/* akhir poto profil */
+/* about */
+
+.about p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+}
+
+.keterangan {
+  border-bottom: 3px solid brown;
+}
+/* akhir about */
+/* portfolio */
+
+.card {
+  width: 100%;
+}
+
+/* akhir portfolio */
+
+/* footer */
+
+footer .kaki {
+  background-color: rgb(49, 49, 151);
+  height: 80px;
+  width: 100%;
+}
+
+/* akhir footer */
+
+/* Desktop */
+@media (min-width: 992px) {
+  .utama {
+    margin-top: -100px;
+    width: 150px;
+  }
+  .dua {
+    padding-bottom: 20px;
+    border-bottom: 3px solid brown;
+  }
+  .keterangan {
+    border: none;
+  }
+  .card {
+    width: 18rem;
+  }
+}
+@media (max-width: 768px) {
+  #nav-hover {
+    padding-left: 15px;
+  }
+}
