@@ -1,3 +1,13 @@
+/* /root */
+.harus {
+  background-color: black;
+  color: white;
+}
+.kartu {
+  border: 1px solid white;
+}
+/* end root */
+
 /* navbar */
 .hero-image {
   margin-top: -350px;
@@ -11,6 +21,15 @@
   background-color: white;
   color: black;
   border-radius: 5px;
+}
+.moon {
+  color: white;
+  border-radius: 50%;
+}
+.moon:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
 }
 /* akhir navbar */
 /* hero-image */
